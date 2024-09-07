@@ -7,7 +7,6 @@
 		"test": "next test",
 		"build": "next build",
 		"start": "next start",
-		"prettier": "prettier --write .",
 		"type-check": "tsc --noEmit",
 		"prepare": "husky"
 	},
