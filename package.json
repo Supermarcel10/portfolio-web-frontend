@@ -7,8 +7,6 @@
 		"test": "next test",
 		"build": "next build",
 		"start": "next start",
-		"lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
 		"prettier": "prettier --write .",
 		"type-check": "tsc --noEmit",
 		"prepare": "husky"
@@ -18,7 +16,6 @@
 	},
 	"dependencies": {
 		"@emotion/react": "11.13.3",
-		"eslint-plugin-prettier": "5.2.1",
 		"next": "14.2.8",
 		"react": "18.3.1",
 		"react-dom": "18.3.1"
@@ -27,9 +24,6 @@
 		"@types/node": "22.5.4",
 		"@types/react": "18.3.5",
 		"@types/react-dom": "18.3.0",
-		"eslint": "8.57.0",
-		"eslint-config-next": "14.2.8",
-		"eslint-config-prettier": "9.1.0",
 		"husky": "9.1.5",
 		"lint-staged": "15.2.10",
 		"prettier": "3.3.3",
