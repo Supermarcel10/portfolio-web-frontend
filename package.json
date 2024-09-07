@@ -6,7 +6,10 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
+		"lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+		"lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+		"prettier": "prettier --write .",
+		"type-check": "tsc --noEmit",
 		"prepare": "husky"
 	},
 	"lint-staged": {
@@ -25,9 +28,11 @@
 		"eslint": "^8",
 		"eslint-config-next": "14.2.8",
 		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-sonarjs": "^2.0.2",
 		"husky": "^9.1.5",
 		"lint-staged": "^15.2.10",
 		"prettier": "3.3.3",
+		"sonarjs": "^1.0.0",
 		"typescript": "^5"
 	}
 }
