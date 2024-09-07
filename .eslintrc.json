@@ -5,8 +5,7 @@
 		"next/typescript",
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended",
-		"plugin:sonarjs/recommended"
+		"plugin:prettier/recommended"
 	],
-	"plugins": ["@typescript-eslint", "sonarjs"]
+	"plugins": ["@typescript-eslint"]
 }
